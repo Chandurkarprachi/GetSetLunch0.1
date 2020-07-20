@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminCategoryActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/categoryslogon"
+    android:text="Add New Products"
+    android:textSize="27dp"
+    android:textColor="@android:color/black"
+    android:layout_marginTop="20dp"
+    android:layout_alignParentTop="true"
+    android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/category_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/txtthali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="30dp"
+            android:textColor="@android:color/black"
+            android:text="Thali"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtsalad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="30dp"
+            android:textColor="@android:color/black"
+            android:text="Salads"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtdezerts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="30dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="Dezerts"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/category_layout_images"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/category_layout"
+        >
+
+        <ImageView
+            android:id="@+id/thali"
+            android:layout_width="103dp"
+            android:layout_height="90dp"
+            android:src="@drawable/back1" />
+
+        <ImageView
+            android:id="@+id/salad"
+            android:layout_width="138dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/salad1" />
+
+        <ImageView
+            android:id="@+id/dezerts"
+            android:layout_width="133dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/desserts" />
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/maintain_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/check_orders_btn"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        android:text="Maintain Products"
+        android:textSize="15dp"
+        android:background="@drawable/customizebutton"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/admin_logout"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        android:text="Check New Orders"
+        android:textSize="15dp"
+        android:background="@drawable/customizebutton"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/admin_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        android:text="Admin Logout"
+        android:background="@drawable/customizebutton"
+        android:textSize="15dp"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "429473388801",
+    "firebase_url": "https://getsetlunch-70148.firebaseio.com",
+    "project_id": "getsetlunch-70148",
+    "storage_bucket": "getsetlunch-70148.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429473388801:android:97f2dd2eb0551bbc7ee300",
+        "android_client_info": {
+          "package_name": "com.example.getsetlunch01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429473388801-desik29kvvvtq07s8vhnk8kbhecjni4b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.getsetlunch01",
+            "certificate_hash": "40371b630f73bd71725d96af381883ee8f2a1cfe"
+          }
+        },
+        {
+          "client_id": "429473388801-uo2jl7d2h7vke1ficmp1997inggf7ged.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGzPIZi5luyGoQAzIuIew97AFZeBEv2kM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429473388801-uo2jl7d2h7vke1ficmp1997inggf7ged.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

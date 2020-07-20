@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentOptionsAcivity">
+    <RelativeLayout
+        android:id="@+id/rl8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E76B4C"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/txttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please Select Your Payment Method"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            />
+
+    </RelativeLayout>
+
+
+    <RadioGroup
+        android:id="@+id/btnGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl8"
+        android:layout_marginTop="50dp">
+
+        <RadioButton
+            android:id="@+id/rdCOD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Cash On Delivery" />
+
+        <RadioButton
+            android:id="@+id/rdUPI"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UPI Payment" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnPlaceOrder"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/customizebutton"
+        android:gravity="center"
+        android:text="Place Your Order"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnPlaceOrder"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="86dp"
+        android:background="@drawable/customizebutton"
+
+        android:gravity="center"
+        android:text="Next"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
